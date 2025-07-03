@@ -1,0 +1,26 @@
+.sidebar {
+  width: 200px;
+  background-color: #ad9f9f;
+  padding-top: 20px;
+}
+.sidebar li.active {
+  background-color: #0ABF2C;
+  color: white;
+  font-weight: bold;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+}
+.sidebar ul {
+  list-style-type: none;
+}
+.sidebar li {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.main-content {
+  flex-grow: 1;
+  padding: 40px;
+}
